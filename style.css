@@ -76,6 +76,7 @@ a{
     border: 0.5px solid white;
     display: flex;
     justify-content: space-between;
+    padding: 3px 3px;
 }
 .navbar-container
 {
@@ -84,7 +85,7 @@ a{
     background-color:rgb(22,43,70);
     opacity: 0.8;
     margin-top: 30px;
-   padding: 5px;
+    padding: 3px 3px;
 }
 .logo-container{
     position: relative;
@@ -92,7 +93,7 @@ a{
 .logo
 {
     position: absolute;
-    bottom: 10px;
+    bottom: -50px;
 }
 .nav-links
 {
@@ -102,13 +103,13 @@ a{
 {
     padding: 13px 10px;
 }
-.nav-links li::before
+/* .nav-links li::before
 {
     content: "|";
     padding-right: 10px;
     color: white;
 }
-.nav-links li:first-child::before { content: ''; }
+.nav-links li:first-child::before { content: ''; } */
 .nav-links li a:hover
 {
     background-color:rgb(111, 109, 241);
