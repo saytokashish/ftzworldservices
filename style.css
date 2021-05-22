@@ -36,13 +36,14 @@ a{
 .d-inline-block{
     display: inline-block;
 }
-/*-----------------------------------------------------------------------*/
+/*-------------------------------main container----------------------------------------*/
 .main-container
 {
     margin-left: 150px;
     margin-right: 150px;
     position: relative;
 }
+/*-------------------------------quick links container----------------------------------------*/
 
 .quick-links-container{
     display: flex;
@@ -62,22 +63,16 @@ a{
     display: flex;
 }
 .quick-link li{
-    padding-right: 2px;
+    padding-right: 10px;
 }
 .quick-link li::before
 {
     content: "| ";
-    color: rgb(111, 109, 241);
+    padding-right: 9px;
+    color: white;
 }
 .quick-link li:first-child::before { content: ''; }
-/*-----------------------------------------------------------------------*/
-.navbar
-{
-    border: 0.5px solid white;
-    display: flex;
-    justify-content: space-between;
-    padding: 3px 3px;
-}
+/*---------------------------------navbar container--------------------------------------*/
 .navbar-container
 {
     height: 70px;
@@ -85,6 +80,13 @@ a{
     background-color:rgb(22,43,70);
     opacity: 0.8;
     margin-top: 30px;
+    padding: 5px 5px;
+}
+.navbar
+{
+    border: 0.5px solid white;
+    display: flex;
+    justify-content: space-between;
     padding: 3px 3px;
 }
 .logo-container{
@@ -93,39 +95,54 @@ a{
 .logo
 {
     position: absolute;
-    bottom: -50px;
+    bottom: -60px;
 }
 .nav-links
 {
     display: flex;
+    color: white;
+    margin:5px;
+    padding: 5px;
 }
 .nav-links li
 {
-    padding: 13px 10px;
+    padding-right: 10px;
 }
-/* .nav-links li::before
+.nav-link
+{
+    padding: 3px;
+    border-radius: 10%;
+}
+ .nav-links li::before
 {
     content: "|";
     padding-right: 10px;
     color: white;
 }
-.nav-links li:first-child::before { content: ''; } */
+.nav-links li:first-child::before { content: ''; } 
 .nav-links li a:hover
 {
     background-color:rgb(111, 109, 241);
     color: white;
 }
+/*---------------------------------page title--------------------------------------*/
 .page-title
 {
-    background-color: rgb(22,43,70,0.5);
-    padding: 40px 40px;
+    /* background-color: rgb(22,43,70,0.5); */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px 40px;
+    line-height: 60px;
 }
 .title-content
 {
     color: rgb(254,251,246);
-    word-spacing: 30px;
-    letter-spacing: 10px;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-size: 55px;
+    font-weight: 400;
 }
+/*---------------------------------service container--------------------------------------*/
 .services-container
 {
     background-color: rgb(22,43,70,0.8);
@@ -144,7 +161,7 @@ a{
 }  */
 .image
 {
-    padding-left: 10px;
+    padding-left: 30px;
 }
 .image1
 {
@@ -152,9 +169,7 @@ a{
 }
 .about-service{
     color: white;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 30px;
 }
 
 .service-link a{
@@ -166,6 +181,7 @@ a{
     content: " >";
     color:rgb(111, 109, 241);
 }
+/*---------------------------------footer--------------------------------------*/
 .footer
 {
     display: flex;
@@ -190,3 +206,4 @@ a{
     color: white;
 }
 .footer li:first-child::before { content: ''; }
+/*---------------------------------the-end--------------------------------------*/
