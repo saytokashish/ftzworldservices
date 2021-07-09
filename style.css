@@ -145,7 +145,7 @@ a{
 {
     /* background-color: rgb(22,43,70,0.5); */
     /* background-color: rgb(0,0,0); */
-    filter: contrast(110%);
+    /* filter: contrast(110%); */
     background: linear-gradient(rgba(83, 121, 163, 0.2), rgba(0, 0, 0, 0.5));
     padding: 40px 40px;
     line-height: 60px;
@@ -184,7 +184,7 @@ a{
 }
 .image1
 {
-    filter: contrast(110%);
+    filter:contrast(110%) brightness(200%);
 }
 .about-service{
     color: rgb(209,215,226);
