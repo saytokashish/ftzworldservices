@@ -171,6 +171,7 @@ a{
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(rgba(8, 18, 28, 0), rgba(86, 94, 105, 1)) 1;
+    padding: 10px 0px;
   }
 /* .services > div :not(.div3)
 {
@@ -178,15 +179,16 @@ a{
 }  */
 .image
 {
+    padding: 10px 0px;
     padding-left: 30px;
 }
 .image1
 {
-    filter: contrast(170%);
+    filter: contrast(110%);
 }
 .about-service{
     color: rgb(209,215,226);
-    padding: 10px 30px;
+    padding: 5px 30px;
     line-height: 20px;
 }
 .about-service p{
