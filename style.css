@@ -55,9 +55,9 @@ a{
 {
     height: 28px;
     background-color:rgb(77,100,144);
-    color: white;
+    color: rgb(206,221,242);
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 400;
     padding: 5px 10px;
 }
 .quick-link
@@ -66,6 +66,7 @@ a{
 }
 .quick-link li{
     padding-right: 10px;
+    
 }
 .quick-link li::before
 {
@@ -128,8 +129,8 @@ a{
 .nav-links li:first-child::before { content: ''; }
 .nav-links li a:hover
 {
-    background-color:rgb(111, 109, 241);
-    color: white;
+    background-color:rgb(69,104,130);
+    color: rgb(220,236,243);
 }
 /*---------------------------------page title--------------------------------------*/
 .page-title
@@ -147,7 +148,7 @@ a{
     word-spacing: 7px;
     letter-spacing: 3px;
     font-size: 55px;
-    font-weight: 400;
+    font-weight: 200;
 }
 /*---------------------------------service container--------------------------------------*/
 .services-container
@@ -184,12 +185,12 @@ a{
 }
 .service-link a{
     text-decoration: underline;
-    color: rgb(111, 109, 241);
+    color: rgb(142,182,208);
 }
 .service-link a::after
 {
     content: " >";
-    color:rgb(111, 109, 241);
+    color:rgb(142,182,208);
 }
 /*---------------------------------footer--------------------------------------*/
 .footer
