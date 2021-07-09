@@ -87,7 +87,7 @@ a{
 .navbar-container
 {
     color: rgb(111, 109, 241);
-    background-color:rgb(22,43,70);
+    background-color:rgb(19,43,67);
     opacity: 0.8;
     margin-top: 30px;
     padding: 5px 5px;
@@ -163,6 +163,7 @@ a{
 {
     background-color: rgba(8, 18, 28, 0.8);
     padding: 5px;
+    font-size: 400;
 }
 .services{
     display: flex;
@@ -184,8 +185,12 @@ a{
     filter: contrast(170%);
 }
 .about-service{
-    color: white;
+    color: rgb(209,215,226);
     padding: 10px 30px;
+    line-height: 20px;
+}
+.about-service p{
+    padding: 5px 0px;
 }
 .service-link
 {
