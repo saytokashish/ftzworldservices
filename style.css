@@ -85,7 +85,7 @@ a{
 }
 .navbar
 {
-    border: 0.5px solid white;
+    border: 0.5px solid rgb(56,91,137);
     display: flex;
     justify-content: space-between;
     padding: 3px 3px;
@@ -97,11 +97,15 @@ a{
     position: relative;
     bottom: 35px;
 }
+.nav-links-container
+{
+    
+}
 .nav-links
 {
     display: flex;
     color: #88D3EB;
-    margin:5px;
+    margin:9px;
     padding: 5px;
     /* border: solid red 1px; */
 }
@@ -168,7 +172,7 @@ a{
 }
 .image1
 {
-    filter: contrast(150%);
+    filter: contrast(170%);
 }
 .about-service{
     color: white;
@@ -194,9 +198,10 @@ a{
     justify-content: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: rgb(111, 109, 241);
+    background-color: rgb(40,66,110);
     color: white;
     font-size: 10px;
+    padding: 5px 0px;
 }
 .footer ul{
     text-decoration: underline;
